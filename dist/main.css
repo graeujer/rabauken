@@ -44,6 +44,15 @@
 @media (max-width: 48em) {
   .header__nav-list {
     margin-top: 0rem;
+    margin-left: 1.5rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 48em) {
+  .header__nav-list {
+    margin-top: 0rem;
+    margin-left: 0.5rem;
+    padding-right: 0rem;
   }
 }
 
