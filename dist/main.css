@@ -108,11 +108,31 @@
 }
 
 .dog__image {
-  background: url(../images/IMG_6653.jpg) fixed no-repeat center center;
-  background-size: contain;
-  height: 0;
-  padding-top: 66.67%;
+  background-image: url(../images/IMG_6653.jpg);
+  background-size: cover;
+  height: 35rem;
   width: 100%;
+  background-attachment: fixed;
+  position: relative;
+  background-repeat: no-repeat;
+}
+@media (max-width: 62em) {
+  .dog__image {
+    height: 25rem;
+    background-position: center center;
+  }
+}
+@media (max-width: 48em) {
+  .dog__image {
+    height: 20rem;
+    background-position: center center;
+  }
+}
+@media (max-width: 36em) {
+  .dog__image {
+    height: 20rem;
+    background-position: center center;
+  }
 }
 
 .main__heading::before {
@@ -237,6 +257,11 @@
   text-transform: uppercase;
   padding-top: 3rem;
 }
+@media (max-width: 36em) {
+  .price__heading {
+    font-size: 1.1rem;
+  }
+}
 
 .price__heading--dark {
   color: black;
@@ -244,7 +269,7 @@
 }
 
 .price__heading-sub {
-  width: 75%;
+  width: 95%;
   padding-top: 1.5rem;
 }
 
