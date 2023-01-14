@@ -99,35 +99,11 @@
 }
 
 .dog__image {
-  background-image: url(../images/IMG_6653.jpg);
-  background-size: cover;
-  background-position: 50% -30%;
-  height: 35rem;
-  width: 100vw;
-  background-attachment: fixed;
-}
-@media (max-width: 62em) {
-  .dog__image {
-    background-size: cover;
-    width: 100vw;
-    height: 25rem;
-  }
-}
-@media (max-width: 48em) {
-  .dog__image {
-    width: 100vw;
-    background-position: 50% -30%;
-    background-size: cover;
-    height: 15rem;
-  }
-}
-@media (max-width: 36em) {
-  .dog__image {
-    width: 100vw;
-    background-position: 50% -50%;
-    height: 8rem;
-    background-size: contain;
-  }
+  background: url(../images/IMG_6653.jpg) fixed no-repeat center center;
+  background-size: contain;
+  height: 0;
+  padding-top: 66.67%;
+  width: 100%;
 }
 
 .main__heading::before {
@@ -145,6 +121,10 @@
   .main__heading::before {
     display: none;
   }
+}
+
+.main__content {
+  width: 100%;
 }
 
 .main__heading {
@@ -235,6 +215,11 @@
   font-size: 2.5rem;
   padding-bottom: 1.5rem;
   font-family: "Meddon";
+}
+@media (max-width: 36em) {
+  .offer__heading-card {
+    font-size: 1.2rem;
+  }
 }
 
 .price__heading {
