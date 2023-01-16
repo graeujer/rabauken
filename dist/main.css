@@ -173,7 +173,6 @@
     background-size: contain;
     position: relative;
     background-repeat: no-repeat;
-    background-position: center center;
   }
 }
 @media (max-width: 36em) {
@@ -185,6 +184,7 @@
     background-size: contain;
     position: relative;
     background-repeat: no-repeat;
+    background-position: center center;
   }
 }
 
@@ -449,6 +449,11 @@
     flex-wrap: wrap;
   }
 }
+@media (max-width: 36em) {
+  .form__content {
+    width: 100%;
+  }
+}
 
 .form__pfote {
   top: 5rem;
@@ -482,7 +487,7 @@ input[type=text], input[type=email] {
 }
 @media (max-width: 36em) {
   input[type=text], input[type=email] {
-    width: 80vw;
+    width: 10rem;
   }
 }
 
