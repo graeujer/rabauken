@@ -2,6 +2,9 @@
 /*992px oder schmaler*/
 /*768px oder schmaler*/
 /*576px oder schmaler*/
+
+body{overflow:hidden}
+
 .header {
   position: sticky;
   top: 0;
