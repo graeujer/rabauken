@@ -250,7 +250,7 @@
 }
 @media (max-width: 36em) {
   .offer__heading-sub {
-    font-size: 2.1rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -563,17 +563,17 @@ select:hover {
   font-family: "Meddon";
   src: url(../lib/fonts/Meddon/Meddon-Regular.ttf) format("truetype");
 }
-@media (max-width: 36em) {
-  body {
-    overflow-x: hidden;
-  }
-}
-
 .container {
   max-width: 75rem;
   padding-left: 2rem;
   padding-right: 2rem;
   margin: 0 auto;
+}
+@media (max-width: 36em) {
+  .container {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
