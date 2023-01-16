@@ -152,6 +152,18 @@
   background-attachment: fixed;
   position: relative;
   background-repeat: no-repeat;
+  /* @media(max-width:$breakpoint-xs){
+       height:0;
+       width:100%;
+       padding-top: 66.667%;
+       background-image:url(../images/IMG_6653.jpg);
+        background-size:contain; 
+    position:relative;
+    background-repeat:no-repeat;
+    background-position:center center;
+
+
+   }*/
 }
 @media (max-width: 62em) {
   .dog__image {
@@ -173,18 +185,6 @@
     background-size: contain;
     position: relative;
     background-repeat: no-repeat;
-  }
-}
-@media (max-width: 36em) {
-  .dog__image {
-    height: 0;
-    width: 100%;
-    padding-top: 66.667%;
-    background-image: url(../images/IMG_6653.jpg);
-    background-size: contain;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center center;
   }
 }
 
@@ -487,7 +487,7 @@ input[type=text], input[type=email] {
 }
 @media (max-width: 36em) {
   input[type=text], input[type=email] {
-    width: 10rem;
+    width: 13rem;
   }
 }
 
@@ -510,6 +510,11 @@ input[type=email]:focus {
   color: black;
   background-color: rgb(193, 161, 102);
   cursor: pointer;
+}
+@media (max-width: 36em) {
+  .button {
+    margin-left: 2rem;
+  }
 }
 
 .button:hover {
