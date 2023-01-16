@@ -157,7 +157,7 @@
   .dog__image {
     height: 0;
     width: 100%;
-    padding: top 66.667%;
+    padding-top: 66.667%;
     background-image: url(../images/IMG_6653.jpg);
     background-size: contain;
     position: relative;
@@ -173,6 +173,7 @@
     background-size: contain;
     position: relative;
     background-repeat: no-repeat;
+    background-position: center center;
   }
 }
 @media (max-width: 36em) {
@@ -477,6 +478,11 @@ input[type=text], input[type=email] {
 @media (max-width: 62em) {
   input[type=text], input[type=email] {
     margin-left: 0;
+  }
+}
+@media (max-width: 36em) {
+  input[type=text], input[type=email] {
+    width: 80vw;
   }
 }
 
